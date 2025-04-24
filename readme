@@ -1,1 +1,21 @@
+sto se tiče metrika LOC ima ih 153 ako neračinamo licence ako ukalkulišemo i licence ima ih 170
 
+Što se tiče statičke analize korišćen je checkstyle
+i otkiveno je sledeće
+
+u fajlu calculator.java:
+- ispod linije 28 data su ledeća zapažanja:
+  // get all entered numbers in string format
+ // if expression starts with + or -, just add one zero at the beginning
+
+- ispod linije 34 data su sledeća zapažanja:
+// split expression by arithmetic operation to get all digits
+
+- ispod linije 37 data su sledeća zapažanja:
+// parse all operations
+
+- ispod linije 46 data su sledeća zapažanja:
+// parse all string numbers to float ones
+
+
+U fajlu start.java nije bilo nikakvih zapažanja
