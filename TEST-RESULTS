@@ -1,1 +1,8 @@
-
+Testiranjem repozitorijuma calculator sistemom BLACK BOX došao sam do sledecih zaključaka:
+- prilikom testiranja osnovnih aritmetičkih operacija sa celim ali i sa decimalnim brojevima rezultati su bili onakvi kakvi se i očekuju
+- prilikom deljenja sa nulom dolazilo je greške što je i očekivano
+- prilikom stavljanja duplih aritmetičkih operacija dolazilo je do greške
+- korišćenjem više zagrada i različitih operacija program je radio očekivano
+- prilikom stavljanja simbola umesto brojeva dolazilo je do očekivane greške
+- prilikom aritmetičkih operacija sa negativnim brojevima dobijali smo očekivane rezultate
+- prilikom koriščenje višecifrenih brojeva u aritmetičkim operacijama dobijali smo tačne vrednosti
